@@ -1,0 +1,342 @@
+html {
+	scrollbar-3dlight-color: #bddd9c;
+	scrollbar-arrow-color: #008000;
+	scrollbar-darkshadow-color: #00aa01;
+	scrollbar-face-color: #8cd391;
+	scrollbar-highlight-color: #c4fac5;
+	scrollbar-shadow-color:#dfeece;
+	scrollbar-track-color:#d8f9db;
+}
+
+body{
+	background:#f2f8eb;
+	color:#000000;
+	font:11px Tahoma,Arial,Helvetica,sans-serif;margin:6px;
+	padding:0;
+}
+
+td.topnav{
+	font-size:10px;
+	background: #daf6dd url(imagens/cellpic_nav.png) repeat-x;color:#dd6900;
+	height:25px;
+	text-align: center;
+	vertical-align: middle;	
+	white-space:nowrap;
+	border: 0px solid #279a62;
+	border-width: 1px 0px 1px 0px
+}
+
+a:link,a:active,a:visited { 
+	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	font-size: 11px; 
+	text-decoration: none; 
+	color: #1d7148; 
+	font-style: normal;
+}
+a:hover { 
+	text-decoration: underline;  
+	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	font-size: 11px; color: #DD6900; 
+	font-style: normal
+}
+
+.bg{
+	color: 11px;
+	background: #ffffff;
+	border: solid 1px #279a62;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;	
+	margin: 5; 
+	padding: 5;	
+}
+
+.bg1{
+	color: 11px;
+	background: url(imagens/cellpic_bkg.png) repeat-x;
+    font-family: Tahoma, Arial, Helvetica, sans-serif;	
+}
+
+.outline{
+	background: #ffffff;
+	border: solid 1px #279a62;
+}
+table { 
+	width: 100%; 
+	margin: 5; 
+	padding: 5;
+	 
+	font-size: small
+}
+table td { 
+	padding: 0; 
+	border-width: 0; 
+	vertical-align: top; 
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+
+
+td {  
+	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	font-size: 11px;
+	border : solid 1px #279a62; 
+}
+
+td.header {
+	padding:10px;
+    height:90px;
+}
+
+
+
+input { 
+	background-color : #ffffff;
+	color : #000000;
+	font-size: 11px; font-family: Tahoma, Arial, Helvetica, sans-serif;  
+}
+
+textarea {
+	color : #000000;	
+	font: normal 11px Tahoma, Arial, Helvetica, sans-serif;
+	border: solid 1px #279a62;
+}
+select {
+	color : #000000;
+	font: normal 11px Tahoma, Arial, Helvetica, sans-serif;
+	border-color : #279a62; 
+} 
+img { 
+	border: 0;
+}
+ul { 
+	margin: 2px; 
+	padding: 2px; 
+	list-style: decimal inside; 
+	text-align: left;
+}
+li { 
+	margin-left: 2px; 
+	list-style: disc inside;
+}
+
+.odd { 
+	background-color: #ffffff;
+	text-align: left;
+		
+}
+.outer { 
+	background-color: #dfeece;
+	text-align:left;
+	border: 3px double #279a62;			
+}
+.even { 
+	background-color: #ffffff;
+			
+}
+th { 
+	background-color: #BDDD9C; 
+	text-align: left; 
+	padding: 5px;
+}
+
+
+.head { 
+	color: #1d7148; 
+	font-size: 11px; 
+	font-weight : bold; 
+	height: 25px;
+	background:#dfeece;
+	vertical-align: middle;	
+}
+.foot { 
+	background-color: #dfeece; 
+	padding: 3px;
+}
+
+.comTitle {
+	color: #006400; 
+	font-size: 11px; 
+	font-weight : bold;
+	background: #d8f9db;
+	height: 23px;
+	text-align: left;
+	padding-top: 7px;
+	padding-left: 10px;	
+
+}
+.comText {
+	padding: 20px;
+	text-align: left; 		
+}
+.comUserStat {
+	font-size: 10px; 
+	color: #006400; 
+	font-weight:bold; 
+	border: 1px solid #279a62; 
+	background-color: #f0fff0; 
+	margin: 2px; padding: 2px;
+}
+.comUserStatCaption {
+	font-weight: normal;
+}
+.comUserStatus {
+	margin-left: 2px; 
+	margin-top: 10px; 
+	color: #1d7148; 
+	font-weight:bold; 
+	font-size: 10px;
+}
+.comUserRank {
+	margin: 2px;
+}
+.comUserRankText {
+	color: #006400;
+	font-size: 10px;
+	font-weight:bold;
+}
+.comUserRankImg {
+	border: 0;
+}
+.comUserName {}
+.comUserImg {
+	margin: 2px;
+}
+.comDate {
+	color: #006400;
+	font-weight: normal; 
+	font-style: italic;	 
+	font-size: smaller;
+	text-align: right;	
+}
+.comDateCaption {
+	color: #006400;
+	font-weight: bold; 
+	font-style: normal;
+	text-align: right;	
+}
+
+div.xoopsCode { 
+	background: #fafafa; 
+	border: 1px solid #279a62;
+	color:#444444;	 
+	font: normal 11px Tahoma, Arial, Helvetica, sans-serif; 
+	padding: 0px 6px 6px 6px;
+}
+
+div.xoopsQuote { 
+	background: #fafafa; 
+	border: 1px solid #279a62;
+	color:#444444;	 
+	font: normal 11px Tahoma, Arial, Helvetica, sans-serif; 
+	padding: 0px 6px 6px 6px;
+}
+
+
+.item {
+	background: #eaedf4;
+	
+}
+.itemHead {
+	color: #006400; 
+	font-size: 11px; 
+	font-weight : bold;
+	background-image: url(imagens/cellpic1.png);
+	height: 20px;
+	padding-top: 7px;
+	padding-left: 7px;
+	border-left: double 3px #279a62;
+	border-right:double 3px #279a62;
+	border-top:double 3px #279a62;
+	border-bottom:solid 1px #279a62;		
+}
+.itemInfo {
+	text-align: right; 
+	padding: 3px; 
+	background-color: #dfeece;
+	border-left: double 3px #279a62;
+	border-right:double 3px #279a62;
+}
+.itemTitle a {
+	font-size: 130%; 
+	font-size: 11px;	
+	font-weight: bold; 
+	font-variant: small-caps; 
+	color: #008000; 
+	background-color: transparent;
+}
+.itemPoster {
+	color: #000000;
+	font-size: 90%; 
+	font-style: normal;
+}
+
+
+.itemPostDate {
+	font-size: 90%; 
+	font-style: normal;
+}
+.itemStats {
+	color: #000000;
+	font-size: 90%; 
+	font-style: normal;
+}
+.itemBody {
+	color: #000000;
+	padding-left: 5px; 
+	text-align: left;
+	background-color: #ffffff;	
+	border-left: double 3px #279a62;
+	border-right: double 3px #279a62;
+	border-top: solid 1px #279a62;	
+	border-bottom: solid 1px #279a62;			
+}
+.itemText {
+	color: #000000;
+	margin-top: 5px; 
+	margin-bottom: 5px; 
+	line-height: 1.5em;
+}
+
+.itemFoot {
+	text-align: right; 
+	padding: 3px; 
+	background-color: #BDDD9C;
+	border-left: double 3px #279a62;
+	border-right:double 3px #279a62;
+	border-bottom:double 3px #279a62;		
+}
+.itemAdminLink {
+	font-size: 90%;
+}
+.itemPermaLink {
+	font-size: 90%;
+}
+
+.blockTitle {
+	color: #c5f9c6;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	background-image: url(imagens/cellpic3.png);	
+	border: solid 1px #279a62; 
+	height: 28px;
+	vertical-align: middle;	
+}
+
+.blockTitle2 {
+	color: #006400;
+	font-weight: bold;
+	font-size: 12px;
+	text-align: center;	
+	background-image: url(imagens/cellpic1.png);
+	border: solid 1px #279a62; 
+	height: 28px;
+	vertical-align: middle;	
+}
+
+.blockContent {
+	background-color: #f0fff0; 
+	padding: 2px;
+	border-left: solid 1px #279a62;
+	border-right:solid 1px #279a62;
+	border-bottom:solid 1px #279a62;
+}
